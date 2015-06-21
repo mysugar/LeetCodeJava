@@ -1,0 +1,9 @@
+select D.Name as Department, E.Name as Employee, E.Salary as Salary 
+  from Employee E, Department D
+   where (select count(distinct(Salary)) from Employee 
+           where DepartmentId = E.DepartmentId and Salary > E.Salary) in (0, 1, 2)
+         and 
+           E.DepartmentId = D.Id 
+         order by E.DepartmentId, E.Salary DESC;
+         
+// 先不用找前三位的，再想怎么去限制前三……了解了distinct,in 的用法吧
