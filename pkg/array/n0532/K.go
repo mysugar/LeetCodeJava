@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func findPairs(nums []int, k int) int {
+func findPair2s(nums []int, k int) int {
 
 	length := len(nums)
 	if  length<2{
@@ -17,6 +17,8 @@ func findPairs(nums []int, k int) int {
 		return 0
 	}
 	ret := 0
+
+
 	for i:=0;i<length;i++ {
 		if i>0 && nums[i]==nums[i-1] {
 			continue
@@ -38,9 +40,35 @@ func findPairs(nums []int, k int) int {
 	}
 	return ret
 }
+func findPairs(nums []int, k int) int {
+	if k<0{
+		return 0
+	}
 
+	data := make(map[int]int)
+	for _, item := range nums {
+		data[item]++
+	}
+
+	flag := k > 0
+
+	count := 0
+	for key, value := range data {
+		if !flag && value > 1 {
+			fmt.Println(value > 1 )
+			count++
+		}
+		_, ok := data[key + k]
+		if flag && ok {
+			fmt.Println(key )
+			count++
+		}
+	}
+	return count
+
+}
 func main() {
-	nums := []int{1, 2, 3, 4, 5}
-	k := 1
+	nums := []int{3, 1, 4, 1, 5,1}
+	k := 2
 	fmt.Println(findPairs(nums,k))
 }
