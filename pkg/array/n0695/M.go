@@ -4,8 +4,43 @@ import (
 	"fmt"
 	//"sort"
 )
+//图遍历 类似fillblood
 
 func maxAreaOfIsland(grid [][]int) int {
+	ret :=0
+	rowN := len(grid)
+	var colN int
+	if rowN>0 {
+		colN=len(grid[0])
+	}else {
+		return ret
+	}
+	for i,row := range grid{
+		for j,col:=range row{
+			if col==1 {
+				count := getIlandCount(i,j,rowN,colN,grid)
+				if count>ret {
+					ret=count
+				}
+			}
+		}
+	}
+	return ret
+}
+func getIlandCount(i int, j int,rowN int, colN int, grid [][]int) int {
+	if (i==rowN || j==colN || i<0 || j<0){
+		return 0
+	}
+	if grid[i][j]==0 {
+		return 0
+	}else {
+		grid[i][j]=0
+		return 1+getIlandCount(i+1,j,rowN,colN,grid)+getIlandCount(i,j+1,rowN,colN,grid)+getIlandCount(i-1,j,rowN,colN,grid)+getIlandCount(i,j-1,rowN,colN,grid)
+	}
+}
+
+
+func maxAreaOfIsland2(grid [][]int) int {
 	//节点做key，iland号做value，
 	//修改为map[string][]int
 	//ilands := make([]int,250)

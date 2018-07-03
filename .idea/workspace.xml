@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94786d56-faed-4ea3-b8f0-1479afa4b6ca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0485/M.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0561/Pair.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0566/R.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0695/M.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0766/T.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0027/Remove.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0169/M.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0283/MoveZeroes.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0448/F.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0463/islandPerimeter.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/array/n0717/OneBit.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/linkedList/define.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pkg/linkedList/n0203/n0203.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pkg/array/n0532/K.go" afterPath="$PROJECT_DIR$/pkg/array/n0532/K.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/array/n0695/M.go" afterPath="$PROJECT_DIR$/pkg/array/n0695/M.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +25,8 @@
       <file leaf-file-name="remove.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/n82/remove.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="65">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="43" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -31,11 +34,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/array/n0485/M.go">
+      <file leaf-file-name="n0203.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/linkedList/n0203/n0203.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="127">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+              <folding>
+                <element signature="e#15#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0448/F.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-597">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneBit.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0717/OneBit.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -44,34 +71,10 @@
         </entry>
       </file>
       <file leaf-file-name="M.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pkg/array/n0695/M.go">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0169/M.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#14#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fi.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/n0832/Fi.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="K.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/array/n0532/K.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -79,25 +82,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pair.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/array/n0561/Pair.go">
+      <file leaf-file-name="M.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0695/M.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="183">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="131" selection-end-column="38" />
               <folding>
-                <element signature="e#14#32#0" expanded="true" />
+                <element signature="e#14#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/array/n0766/T.go">
+      <file leaf-file-name="islandPerimeter.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0463/islandPerimeter.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
               <folding>
-                <element signature="e#14#31#0" expanded="true" />
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveZeroes.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0283/MoveZeroes.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Remove.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/array/n0027/Remove.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,32 +133,9 @@
       <file leaf-file-name="remove.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/n26/remove.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remove.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/n80/remove.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/array/n0566/R.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-                <marker date="1530549040348" expanded="true" signature="153:390" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +190,16 @@
         <option value="$PROJECT_DIR$/pkg/array/n566/R.go" />
         <option value="$PROJECT_DIR$/pkg/array/n0485/M.go" />
         <option value="$PROJECT_DIR$/pkg/array/n0695/M.go" />
+        <option value="$PROJECT_DIR$/pkg/array/n0463/islandPerimeter.go" />
+        <option value="$PROJECT_DIR$/pkg/array/n0283/MoveZeroes.go" />
+        <option value="$PROJECT_DIR$/pkg/array/n0027/Remove.go" />
+        <option value="$PROJECT_DIR$/pkg/linkedList/n0203.go" />
+        <option value="$PROJECT_DIR$/pkg/linkedList/define.go" />
+        <option value="$PROJECT_DIR$/pkg/linkedList/x.go" />
+        <option value="$PROJECT_DIR$/pkg/linkedList/n0203/n0203.go" />
+        <option value="$PROJECT_DIR$/pkg/array/n0448/F.go" />
+        <option value="$PROJECT_DIR$/pkg/array/n0717/OneBit.go" />
+        <option value="$PROJECT_DIR$/pkg/array/n0169/M.go" />
       </list>
     </option>
   </component>
@@ -237,25 +251,27 @@
               <item name="LeetCodeJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCodeJava" type="462c0819:PsiDirectoryNode" />
               <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="n26" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="n0169" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCodeJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCodeJava" type="462c0819:PsiDirectoryNode" />
               <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="n80" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="n0203" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCodeJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCodeJava" type="462c0819:PsiDirectoryNode" />
               <item name="pkg" type="462c0819:PsiDirectoryNode" />
               <item name="n82" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCodeJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCodeJava" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="n635" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCodeJava" type="b2602c69:ProjectViewProjectNode" />
@@ -276,6 +292,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/linkedList/n0203" />
+      <recent name="$PROJECT_DIR$/pkg/linkedList" />
       <recent name="$PROJECT_DIR$/pkg/array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -296,22 +314,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build M.go (1)">
-    <configuration name="go build K.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+  <component name="RunManager" selected="Go Build.go build M.go">
+    <configuration name="go build F.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="LeetCodeJava" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pkg/array/n0532/K.go" />
-      <package value="github.com/LeetCodeJava" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build M.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="LeetCodeJava" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pkg/array/n0695/M.go" />
+      <filePath value="$PROJECT_DIR$/pkg/array/n0448/F.go" />
       <package value="github.com/LeetCodeJava" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
@@ -320,42 +329,51 @@
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pkg/array/n0485/M.go" />
+      <filePath value="$PROJECT_DIR$/pkg/array/n0169/M.go" />
       <package value="github.com/LeetCodeJava" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build R.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build OneBit.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="LeetCodeJava" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pkg/array/n566/R.go" />
+      <filePath value="$PROJECT_DIR$/pkg/array/n0717/OneBit.go" />
       <package value="github.com/LeetCodeJava" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build T.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build Remove.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="LeetCodeJava" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pkg/array/n766/T.go" />
+      <filePath value="$PROJECT_DIR$/pkg/array/n0027/Remove.go" />
+      <package value="github.com/LeetCodeJava" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build n0203.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="LeetCodeJava" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/linkedList/n0203/n0203.go" />
       <package value="github.com/LeetCodeJava" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build K.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build T.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build R.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build M.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build M.go (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build Remove.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build n0203.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build F.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build OneBit.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build M.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build M.go (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build M.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build R.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build T.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build K.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build M.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build OneBit.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build F.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build n0203.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build Remove.go" />
       </list>
     </recent_temporary>
   </component>
@@ -396,8 +414,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -429,88 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pkg/n1/TwoSum_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#12#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/n1/TwoSum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="184" column="1" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="184" selection-end-column="1" />
-          <folding>
-            <element signature="e#12#37#0" expanded="true" />
-            <marker date="1528373430682" expanded="true" signature="1644:2211" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/n635/TwoSumIV.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="5" lean-forward="false" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/n143/ReorderList_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10875">
-          <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7500">
-          <caret line="504" column="0" lean-forward="false" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/O.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/n1/TwoSum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="184" column="1" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="184" selection-end-column="1" />
-          <folding>
-            <element signature="e#12#37#0" expanded="true" />
-            <marker date="1528373430682" expanded="true" signature="1644:2211" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pkg/n143/ReorderList.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -805,7 +742,7 @@
         <state relative-caret-position="270">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#14#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,7 +752,7 @@
         <state relative-caret-position="287">
           <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
-            <element signature="e#14#39#0" expanded="true" />
+            <element signature="e#14#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -825,7 +762,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#14#32#0" expanded="true" />
+            <element signature="e#14#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,16 +783,8 @@
         <state relative-caret-position="243">
           <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#14#31#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/n26/remove.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,22 +806,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0695/M.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="131" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0463/islandPerimeter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0027/Remove.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/n26/remove.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/linkedList/x.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/linkedList/define.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#20#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/linkedList/n0203/n0203.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pkg/n82/remove.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="17" />
+        <state relative-caret-position="65">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="43" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/array/n0695/M.go">
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0283/MoveZeroes.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="303">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0448/F.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-597">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0717/OneBit.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/array/n0169/M.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
